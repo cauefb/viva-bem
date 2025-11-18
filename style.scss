@@ -28,7 +28,7 @@
 }
 
 header {
-  height: 80vh;
+  height: 60vh;
   background-image: url("./img/bannerHeader.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -66,20 +66,20 @@ header {
   padding: 8px 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  background: linear-gradient(to right, $color 0%, #33cc73 100%);
+  justify-content:flex-start ;
+  gap: 30%;
+  background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
   border-radius: 50px;
 
   img {
-    height: 32px;
+    //height: 32px;
     width: auto;
   }
 
   nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     gap: 24px;
   }
 
@@ -98,7 +98,7 @@ header {
     padding: 8px 16px;
     margin-inline: auto;
     border-radius: 999px;
-
+    gap: 8%;
     img {
       max-width: 110px;
       height: auto;
@@ -198,7 +198,7 @@ header {
     .box-title {
       height: auto;
       text-align: center;
-      align-items: center;
+      //align-items: center;
       gap: 16px;
     }
 
@@ -210,10 +210,15 @@ header {
       font-size: 1rem;
     }
 
-    .btn-blue,
-    .btn-white {
+    .btn-blue
+     {
       width: 100%;
-      max-width: 260px;
+      max-width: 180px;
+    }
+
+    .btn-white{
+      width: 100%;
+      width: 130px;
     }
   }
 }
@@ -222,7 +227,7 @@ main {
   background-color: #f8f9fa;
 }
 .main-info {
-  height: 40vh;
+  height: 25vh;
   width: 70%;
   margin: 60px auto 40px;
   display: flex;
